@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Open Sans', sans-serif;
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+    background-color: lightblue;
+    color: black;
+}
+
+header {
+    background-color: white;
+    color: black;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.centrado {
+    justify-content: center;
+    text-align: center;
+}
+
+.header {
+    background-color: white;
+    color: black;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.submenu {
+    background-color: black;
+    color: white;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submenu a {
+    text-decoration: none;
+    color: white;
+}
+
+.submenu a:hover {
+    color: blue;
+}
+
+.fondo {
+    background-color: white;
+}
+
+.cuadro {
+    margin: 0 auto;
+    width: 500px;
+    height: 375px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.cuadror {
+    margin: 0 auto;
+    width: 500px;
+    height: 580px;
+    background-color: white;
+    border-radius: 1px;
+}
+
+.cuadrorr {
+    margin: 0 auto;
+    width: 500px;
+    height: 580px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.cuadroo {
+    margin: 0 auto;
+    width: 500px;
+    height: 320px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.cuadro h2 {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
+
+.cuadror h2 {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
+
+.campo {
+    width: 250px;
+    height: 25px;
+    font-size: 18px;
+    border-radius: 3px;
+    padding: 15px;
+    border-color: lightblue;
+}
+
+.buttonE {
+    color: wheat;
+    background-color: black;
+    padding: 5px;
+}
+
+.buttonE:hover {
+    background-color: brown;
+    transition: 0.4s;
+}
+
+.button {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: wheat;
+    background-color: black;
+}
+
+.button:hover {
+    color: black;
+    background-color: lightblue;
+    transition: 0.4s;
+}
+
+.elementos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.elementos h4{
+    padding-right: 5px;
+}
+
+form a {
+    padding-left: 20px;
+}
+
+table {
+    table-layout: fixed;
+    width: 95%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 3px solid black;
+    background-color: white;
+}
+
+.tablap {
+    table-layout: fixed;
+    width: 75%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 3px solid black;
+    background-color: white;
+}
+
+.input-p {
+    padding: 1px;
+    text-align: center;
+    width: 80px;
+    font-size: 14px;
+}
+
+.btn-t {
+    background-color: black;
+    color: wheat;
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.btn-t:hover {
+    background-color: lightblue;
+    color: black;
+    transition: 0.4s;
+}
+
+td {
+    width: 25%;
+    text-align: center;
+    vertical-align: top;
+    padding: 10px;
+    color: black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.b-b {
+    border-bottom: 2px solid gray;
+}
+
+.usuario h1{
+    color: black;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.usuario h2{
+    color: black;
+    padding-left: 60px;
+    margin-bottom: 30px;
+}
+
+.btn-flotante {
+	font-size: 14px;
+	text-transform: uppercase; 
+	font-weight: bold;
+	color: wheat; 
+	border-radius: 5px; 
+	letter-spacing: 2px; 
+	background-color: black; 
+	padding: 18px 20px; 
+	position: fixed;
+	bottom: 20px;
+	right: 40px;
+	transition: all 300ms ease 0ms;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	z-index: 99;
+    text-decoration: none;
+}
+
+.btn-flotante:hover {
+	background-color: lightblue;
+    color: black; 
+	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+	transform: translateY(-7px);
+}
+
+@media only screen and (max-width: 600px) {
+ 	.btn-flotante {
+		font-size: 14px;
+		padding: 12px 20px;
+		bottom: 20px;
+		right: 20px;
+	}
+}
